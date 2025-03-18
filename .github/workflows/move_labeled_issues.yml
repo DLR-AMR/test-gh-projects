@@ -73,7 +73,7 @@ jobs:
             # Set the cleaned issue number and NUMBER_IS_SET to true
             echo "CLEAN_ISSUE_NUMBER=$CLEAN_ISSUE_NUMBER" >> $GITHUB_OUTPUT
             echo "NUMBER_IS_SET=true" >> $GITHUB_ENV
-            # Debug output
+            # Debug output!
             echo "NUMBER_IS_SET=$NUMBER_IS_SET"
             echo "CLEAN_ISSUE_NUMBER=$CLEAN_ISSUE_NUMBER"
 
